@@ -1,0 +1,11 @@
+// Define text color variable
+$main-text-color: #3D3D3D;
+
+// Apply to body and paragraph
+body {
+  color: $main-text-color;
+}
+
+p {
+  color: $main-text-color;
+}
