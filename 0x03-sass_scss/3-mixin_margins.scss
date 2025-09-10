@@ -1,0 +1,15 @@
+// Define mixin for left and right margins
+@mixin margin-x($value) {
+  margin-left: $value;
+  margin-right: $value;
+}
+
+// Apply mixin to body
+body {
+  @include margin-x(10px);
+}
+
+// Apply mixin to div
+div {
+  @include margin-x(15px);
+}
